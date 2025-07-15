@@ -1,0 +1,9 @@
+GRUB_DEFAULT='saved'
+GRUB_DISABLE_RECOVERY='true'
+GRUB_DISABLE_SUBMENU='true'
+GRUB_ENABLE_BLSCFG='true'
+# GRUB_TERMINAL_OUTPUT='console'
+GRUB_TIMEOUT='5'
+GRUB_CMDLINE_LINUX_DEFAULT='quiet splash console=tty1 noibrs noibpb 8250.nr_uarts=0'
+GRUB_DISTRIBUTOR='Nobara Linux'
+GRUB_THEME="/usr/share/grub/themes/catppuccin-macchiato-grub-theme/theme.txt"
