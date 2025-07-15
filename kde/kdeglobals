@@ -1,0 +1,176 @@
+[ColorEffects:Disabled]
+ChangeSelectionColor=
+Color=36, 39, 58
+ColorAmount=0.30000000000000004
+ColorEffect=2
+ContrastAmount=0.1
+ContrastEffect=0
+Enable=
+IntensityAmount=-1
+IntensityEffect=0
+
+[ColorEffects:Inactive]
+ChangeSelectionColor=true
+Color=36, 39, 58
+ColorAmount=0.5
+ColorEffect=3
+ContrastAmount=0
+ContrastEffect=0
+Enable=true
+IntensityAmount=0
+IntensityEffect=0
+
+[Colors:Button]
+BackgroundAlternate=183,189,248
+BackgroundNormal=54, 58, 79
+DecorationFocus=183,189,248
+DecorationHover=54, 58, 79
+ForegroundActive=245, 169, 127
+ForegroundInactive=165, 173, 203
+ForegroundLink=183,189,248
+ForegroundNegative=237, 135, 150
+ForegroundNeutral=238, 212, 159
+ForegroundNormal=202, 211, 245
+ForegroundPositive=166, 218, 149
+ForegroundVisited=198, 160, 246
+
+[Colors:Complementary]
+BackgroundAlternate=24, 25, 38
+BackgroundNormal=30, 32, 48
+DecorationFocus=183,189,248
+DecorationHover=54, 58, 79
+ForegroundActive=245, 169, 127
+ForegroundInactive=165, 173, 203
+ForegroundLink=183,189,248
+ForegroundNegative=237, 135, 150
+ForegroundNeutral=238, 212, 159
+ForegroundNormal=202, 211, 245
+ForegroundPositive=166, 218, 149
+ForegroundVisited=198, 160, 246
+
+[Colors:Header]
+BackgroundAlternate=24, 25, 38
+BackgroundNormal=30, 32, 48
+DecorationFocus=183,189,248
+DecorationHover=54, 58, 79
+ForegroundActive=245, 169, 127
+ForegroundInactive=165, 173, 203
+ForegroundLink=183,189,248
+ForegroundNegative=237, 135, 150
+ForegroundNeutral=238, 212, 159
+ForegroundNormal=202, 211, 245
+ForegroundPositive=166, 218, 149
+ForegroundVisited=198, 160, 246
+
+[Colors:Selection]
+BackgroundAlternate=183,189,248
+BackgroundNormal=183,189,248
+DecorationFocus=183,189,248
+DecorationHover=54, 58, 79
+ForegroundActive=245, 169, 127
+ForegroundInactive=30, 32, 48
+ForegroundLink=183,189,248
+ForegroundNegative=237, 135, 150
+ForegroundNeutral=238, 212, 159
+ForegroundNormal=24, 25, 38
+ForegroundPositive=166, 218, 149
+ForegroundVisited=198, 160, 246
+
+[Colors:Tooltip]
+BackgroundAlternate=27,25,35
+BackgroundNormal=36, 39, 58
+DecorationFocus=183,189,248
+DecorationHover=54, 58, 79
+ForegroundActive=245, 169, 127
+ForegroundInactive=165, 173, 203
+ForegroundLink=183,189,248
+ForegroundNegative=237, 135, 150
+ForegroundNeutral=238, 212, 159
+ForegroundNormal=202, 211, 245
+ForegroundPositive=166, 218, 149
+ForegroundVisited=198, 160, 246
+
+[Colors:View]
+BackgroundAlternate=30, 32, 48
+BackgroundNormal=36, 39, 58
+DecorationFocus=183,189,248
+DecorationHover=54, 58, 79
+ForegroundActive=245, 169, 127
+ForegroundInactive=165, 173, 203
+ForegroundLink=183,189,248
+ForegroundNegative=237, 135, 150
+ForegroundNeutral=238, 212, 159
+ForegroundNormal=202, 211, 245
+ForegroundPositive=166, 218, 149
+ForegroundVisited=198, 160, 246
+
+[Colors:Window]
+BackgroundAlternate=24, 25, 38
+BackgroundNormal=30, 32, 48
+DecorationFocus=183,189,248
+DecorationHover=54, 58, 79
+ForegroundActive=245, 169, 127
+ForegroundInactive=165, 173, 203
+ForegroundLink=183,189,248
+ForegroundNegative=237, 135, 150
+ForegroundNeutral=238, 212, 159
+ForegroundNormal=202, 211, 245
+ForegroundPositive=166, 218, 149
+ForegroundVisited=198, 160, 246
+
+[DirSelect Dialog]
+DirSelectDialog Size=899,596
+History Items[$e]=file:$HOME/nobarapad/dev/react/desa-timbang-lawan,file:$HOME/nobarapad/dev/bruno,file:$HOME/nobarapad/dev/bun/mau-ngapain,file:$HOME/nobarapad/dev/t-stack/mau-ngapain,file:$HOME/nobarapad/dev/t-stack/mau-ngapain,file:$HOME/nobarapad/dev/dummy/my-better-t-app,file:$HOME/nobarapad/dev/php/rei-sumut/docs,file:$HOME/nobarapad/dev/php/rei-sumut,file:$HOME/nobarapad/dev/php/rei-sumut,file:$HOME/Downloads/check-my-progress-chrome-extension,file:$HOME/nobarapad/dev/react/desa-timbang-lawan,file:$HOME/nobarapad/dev/php/desa-timbang-lawan,file:$HOME/nobarapad/dev/php/desa-timbang-lawan,file:$HOME/nobarapad/dev/react/desa-timbang-lawan,file:$HOME/nobarapad/dev/php/sihadir,file:$HOME/nobarapad/dev/php/sihadir,file:$HOME/nobarapad/vlc,file:$HOME/nobarapad/dev/php/sikopertais
+Splitter State=\x00\x00\x00\xff\x00\x00\x00\x01\x00\x00\x00\x02\x00\x00\x00\x9d\x00\x00\x02\xa8\x00\xff\xff\xff\xff\x01\x00\x00\x00\x01\x00
+
+[General]
+BrowserApplication=brave-browser.desktop
+ColorSchemeHash=be7ce825dcfb8832c4c780870d6b08bfb4cefb62
+TerminalApplication=kitty
+TerminalService=kitty.desktop
+XftAntialias=true
+XftHintStyle=hintslight
+XftSubPixel=rgb
+fixed=Noto Sans Mono,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+font=Noto Sans,11,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+menuFont=Noto Sans,11,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+smallestReadableFont=Noto Sans,9,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+toolBarFont=Noto Sans,11,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+
+[Icons]
+Theme=kora-light-panel
+
+[KDE]
+LookAndFeelPackage=Catppuccin-Macchiato-Lavender
+widgetStyle=Breeze
+
+[KFileDialog Settings]
+Allow Expansion=false
+Automatically select filename extension=true
+Breadcrumb Navigation=true
+Decoration position=2
+LocationCombo Completionmode=5
+PathCombo Completionmode=5
+Show Bookmarks=false
+Show Full Path=false
+Show Inline Previews=true
+Show Preview=false
+Show Speedbar=true
+Show hidden files=true
+Sort by=Date
+Sort directories first=true
+Sort hidden files last=false
+Sort reversed=true
+Speedbar Width=149
+View Style=Simple
+
+[KShortcutsDialog Settings]
+Dialog Size=600,480
+
+[WM]
+activeBackground=36,39,58
+activeBlend=202,211,245
+activeForeground=202,211,245
+inactiveBackground=24,25,38
+inactiveBlend=165,173,203
+inactiveForeground=165,173,203

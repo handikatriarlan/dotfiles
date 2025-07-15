@@ -1,0 +1,6 @@
+[Greeter][LnF][General]
+showMediaControls=false
+
+[Greeter][Wallpaper][org.kde.image][General]
+Image=/home/handikatriarlan/Downloads/wallpaper.png
+PreviewImage=/home/handikatriarlan/Downloads/wallpaper.png
