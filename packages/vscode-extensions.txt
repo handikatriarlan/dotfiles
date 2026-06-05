@@ -1,0 +1,16 @@
+adityaputrapratama.sholat-reminder
+cardinal90.multi-cursor-case-preserve
+dbaeumer.vscode-eslint
+devsense.phptools-vscode
+eamodio.gitlens
+esbenp.prettier-vscode
+formulahendry.auto-close-tag
+formulahendry.auto-rename-tag
+github.codespaces
+kisstkondoros.vscode-gutter-preview
+laravel.vscode-laravel
+pkief.material-icon-theme
+smcpeak.default-keys-windows
+steoates.autoimport
+usernamehw.errorlens
+wakatime.vscode-wakatime

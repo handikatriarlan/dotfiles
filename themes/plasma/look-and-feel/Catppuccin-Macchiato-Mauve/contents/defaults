@@ -1,0 +1,17 @@
+[kdeglobals][General]
+ColorScheme=CatppuccinMacchiatoMauve
+
+[kcminputrc][Mouse]
+cursorTheme=Catppuccin-Macchiato-Mauve-Cursors
+
+[kwinrc][org.kde.kdecoration2]
+ButtonsOnLeft=
+ButtonsOnRight=IAX
+library=org.kde.kwin.aurorae
+theme=__aurorae__svg__CatppuccinMacchiato-Modern
+
+[plasmarc][Theme]
+name=default
+
+[KSplash]
+Theme=Catppuccin-Macchiato-Mauve-splash
