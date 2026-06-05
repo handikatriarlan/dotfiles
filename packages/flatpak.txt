@@ -1,0 +1,5 @@
+app.zen_browser.zen
+com.discordapp.Discord
+com.obsproject.Studio
+org.localsend.localsend_app
+org.telegram.desktop

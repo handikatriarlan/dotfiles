@@ -1,0 +1,14 @@
+/home/handikatriarlan/.nvm/versions/node/v25.5.0/lib
+├── @gitlawb/openclaude@0.11.0
+├── @google/gemini-cli@0.41.2
+├── @nestjs/cli@11.0.16
+├── 9router@0.4.66
+├── agent-browser@0.26.0
+├── better-sqlite3@12.6.2
+├── intelephense@1.16.5
+├── nodemon@3.1.14
+├── npm@11.8.0
+├── outray@0.1.7
+├── systray2@2.1.4
+└── vercel@50.13.2
+

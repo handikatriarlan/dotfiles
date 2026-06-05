@@ -8,25 +8,70 @@ blurEnabled=true
 contrastEnabled=false
 desktopchangeosdEnabled=false
 krohnkiteEnabled=false
+kzonesEnabled=true
+minimizeallEnabled=false
 translucencyEnabled=true
 
 [Round-Corners]
 InactiveOutlineThickness=0
 OutlineThickness=0
 
+[Script-kzones]
+layoutsJson=[\n    {\n        "name": "Priority Grid",\n        "padding": 0,\n        "zones": [\n            {\n                "x": 0,\n                "y": 0,\n                "height": 100,\n                "width": 50\n            },\n            {\n                "x": 50,\n                "y": 0,\n                "height": 100,\n                "width": 50\n            }\n        ]\n    },\n    {\n        "name": "Quadrant Grid",\n        "zones": [\n            {\n                "x": 0,\n                "y": 0,\n                "height": 50,\n                "width": 50\n            },\n            {\n                "x": 0,\n                "y": 50,\n                "height": 50,\n                "width": 50\n            },\n            {\n                "x": 50,\n                "y": 50,\n                "height": 50,\n                "width": 50\n            },\n            {\n                "x": 50,\n                "y": 0,\n                "height": 50,\n                "width": 50\n            }\n        ]\n    }\n]
+
 [TabBox]
 LayoutName=thumbnail_grid
 
-[Tiling]
-padding=4
-
 [Tiling][0bdaed81-2614-5159-b48b-c30c319b07a9]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][1696d3b0-3d9d-4263-b4e6-7dad18475a9d][0f6f3854-ab61-42de-b9c9-95337b72e079]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][1696d3b0-3d9d-4263-b4e6-7dad18475a9d][1bf26257-2d49-4a0c-b975-46e4de50b82f]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][1696d3b0-3d9d-4263-b4e6-7dad18475a9d][21a48e54-9097-4918-8297-0d320d7e8e92]
+padding=4
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][1696d3b0-3d9d-4263-b4e6-7dad18475a9d][22b9f736-7207-4952-bab8-c9d22e04d5b9]
+padding=4
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][1696d3b0-3d9d-4263-b4e6-7dad18475a9d][7c0bf68f-b4d9-4e46-83fd-24b1d5baa867]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][1696d3b0-3d9d-4263-b4e6-7dad18475a9d][8c8d5735-c562-42e6-82f4-61532511b223]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
+[Tiling][1696d3b0-3d9d-4263-b4e6-7dad18475a9d][943511d5-b45a-4907-815f-a6c1ff9bda65]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][1696d3b0-3d9d-4263-b4e6-7dad18475a9d][d5c9bfa4-603f-4642-8c77-55c9dfdf3305]
+padding=4
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][1696d3b0-3d9d-4263-b4e6-7dad18475a9d][dd78d98a-bea2-47fe-b430-9c9905acba98]
+padding=4
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][1696d3b0-3d9d-4263-b4e6-7dad18475a9d][e4c2e4cc-c449-4ce1-b285-a53bff26b813]
+padding=4
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
 [Tiling][80a0496a-79b2-5521-8a9e-b5c0c679ddef]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][be399348-b6f4-47d5-b6cb-b32ae0335534][21a48e54-9097-4918-8297-0d320d7e8e92]
+padding=4
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][be399348-b6f4-47d5-b6cb-b32ae0335534][dd78d98a-bea2-47fe-b430-9c9905acba98]
+padding=4
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][dcd0a4a6-ab79-4013-abf5-9db211ed14f8][dd78d98a-bea2-47fe-b430-9c9905acba98]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][f596aefc-d6bb-5049-a3ab-30234d448f7e]
@@ -39,5 +84,4 @@ VirtualKeyboardEnabled=true
 Scale=1
 
 [org.kde.kdecoration2]
-library=org.kde.kwin.aurorae
 theme=kwin4_decoration_qml_plastik
