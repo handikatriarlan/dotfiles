@@ -1,0 +1,30 @@
+{
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.formatOnSave": true,
+    "files.autoSave": "afterDelay",
+    "editor.fontFamily": "'JetBrainsMono Nerd Font Mono', 'monospace'",
+    "editor.fontSize": 14,
+    "editor.fontWeight": "450",
+    "editor.fontLigatures": true,
+    "editor.lineHeight": 1.6,
+    "editor.letterSpacing": 0.3,
+    "editor.stickyScroll.enabled": false,
+    "git.enableSmartCommit": true,
+    "explorer.confirmDelete": false,
+    "security.workspace.trust.untrustedFiles": "open",
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "[php]": {
+        "editor.defaultFormatter": "laravel.vscode-laravel"
+    },
+    "gitlens.graph.details.location": "auto",
+    "git.ignoreRebaseWarning": true,
+    "workbench.editorAssociations": {
+        "*.copilotmd": "vscode.markdown.preview.editor",
+        "*.md": "default"
+    },
+    "workbench.diffEditorAssociations": {
+        "*.md": "default"
+    }
+}
