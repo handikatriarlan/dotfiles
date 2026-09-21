@@ -1,6 +1,18 @@
-fonts/*.zip
-
-# Sensitive files — see docs/sensitive-files.md for backup instructions
+# Migration and backup directories
+migration-backup/
 docs/backups/
+
+# Sensitive credentials, keys, and database dumps
 *.pem
 *.key
+*.asc
+*.sql
+*.backup
+
+# Fonts archive
+fonts/*.zip
+
+# Agent state
+.omo/
+
+

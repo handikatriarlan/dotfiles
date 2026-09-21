@@ -1,0 +1,6 @@
+beekeeper-studio-bin
+cursor-early-access-bin
+darkly-bin
+kora-icon-theme
+localsend-bin
+plasma6-applets-wallhaven-reborn-git

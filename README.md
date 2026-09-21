@@ -2,92 +2,111 @@
   <img src="./screenshots/desktop.png" width="100%" />
 </p>
 
-<h1 align="center">Fedora KDE Dotfiles</h1>
+<h1 align="center">CachyOS KDE Plasma 6 Dotfiles</h1>
 
 <p align="center">
-  Personal Fedora KDE setup powered by Kitty, Zsh, Starship, Plasma, and others.
+  Personal, lightweight CachyOS (Arch-based) setup powered by KDE Plasma 6, Wayland, Kitty, Zsh, Starship prompt, and Catppuccin Macchiato.
 </p>
 
-## Preview
+## Overview
 
-A collection of configuration files, themes, fonts, and package lists used to customize my Fedora KDE environment.
+A clean, modern dotfiles repository configured for **CachyOS Linux**. Designed to be lightweight (< 5 MB), fast to clone, and easy to maintain without gigabytes of vendored binary assets or duplicate font files.
 
 ## Environment
 
-* OS: Fedora Linux
-* Desktop Environment: KDE Plasma
-* Terminal: Kitty
-* Shell: Zsh
-* Prompt: Starship
-* Bootloader: GRUB
-* Fonts: JetBrains Mono and other system fonts
-* Theme: Custom KDE and GTK themes
+* **OS:** CachyOS Linux (Arch-based, rolling)
+* **Desktop Environment:** KDE Plasma 6.7.5 (Wayland)
+* **Terminal:** Kitty
+* **Shell:** Zsh (Oh My Zsh with system plugins)
+* **Prompt:** Starship (Nord/Catppuccin palette)
+* **Bootloader:** systemd-boot
+* **Editor:** Cursor / Code - OSS
+* **Font:** JetBrains Mono Nerd Font (`ttf-jetbrains-mono-nerd`) & BearSansUI
+* **Theme:** Catppuccin Macchiato Mauve + Kora Icons (`kora-icon-theme`)
 
 ## Repository Structure
 
 ```text
 .
-├── config/         # Application configuration files
-├── fonts/          # Font configuration and installation resources
-├── grub/           # GRUB customization
-├── home/           # Files placed in $HOME
-├── kde/            # KDE Plasma settings
-├── packages/       # Installed package lists
-├── screenshots/    # Desktop screenshots
-└── themes/         # Themes and appearance settings
+├── config/              # Application configs (mirrors ~/.config/)
+│   ├── btop/            # Resource monitor config
+│   ├── Code - OSS/      # VSCode OSS editor settings
+│   ├── Cursor/          # Cursor AI editor settings
+│   ├── fastfetch/       # Fastfetch system info layout (CachyOS)
+│   ├── kitty/           # Kitty terminal emulator config
+│   └── starship.toml    # Shell prompt theme
+├── home/                # User home root dotfiles
+│   ├── .zshrc           # Zsh configuration (system plugins, pacman aliases)
+│   └── .gitconfig       # Git configuration (delta pager, GPG signing)
+├── kde/                 # KDE Plasma 6 configuration & assets
+│   ├── kdeglobals       # Global KDE theme and appearance
+│   ├── kglobalshortcutsrc # Global keyboard shortcuts
+│   ├── kwinrc           # KWin window manager settings
+│   ├── plasma-org.kde.plasma.desktop-appletsrc # Desktop panels & widgets
+│   ├── plasmarc         # Plasma shell state
+│   ├── color-schemes/   # Lightweight color schemes (Catppuccin, Dracula, etc.)
+│   └── wallpapers/      # Desktop wallpapers (Dark & Light)
+├── packages/            # Package manifests for quick replication
+│   ├── pacman.txt       # Native Arch/CachyOS explicit packages (pacman -Qne)
+│   ├── aur.txt          # Foreign/AUR packages (kora-icon-theme, beekeeper, etc.)
+│   ├── npm-global.txt   # Global Node.js tools
+│   └── vscode-extensions.txt # VSCode / Cursor extensions
+├── sddm/                # SDDM display manager configuration
+│   └── sddm.conf        # SDDM theme pointer
+├── install.sh           # Modular restoration and setup script
+└── screenshots/         # Desktop screenshots
 ```
 
-## Installation
+## Quick Installation & Restoration
 
 Clone the repository:
 
 ```bash
-git clone https://github.com/handikatriarlan/dotfiles.git
-cd dotfiles
+git clone https://github.com/handikatriarlan/dotfiles.git ~/dotfiles
+cd ~/dotfiles
 ```
 
-Copy the desired configuration files to your system:
+### Option 1: Automated Assistant (Recommended)
+
+Run the included `install.sh` script:
 
 ```bash
+# Interactive menu
+./install.sh
+
+# Or restore specific components directly:
+./install.sh configs   # Restores configs to ~/.config, ~/, and ~/.local/share/
+./install.sh pacman    # Installs all native pacman packages
+./install.sh aur       # Installs all AUR packages (via paru or yay)
+./install.sh npm       # Installs global npm packages
+./install.sh code      # Installs code editor extensions
+./install.sh all       # Runs all restoration tasks
+```
+
+### Option 2: Manual Setup
+
+```bash
+# 1. Restore app configs
 cp -r config/* ~/.config/
-```
 
-Or manually install only the components you need.
+# 2. Restore shell and git configs
+cp home/.zshrc ~/
+cp home/.gitconfig ~/
 
-## Packages
+# 3. Restore KDE Plasma configs and assets
+mkdir -p ~/.local/share/wallpapers ~/.local/share/color-schemes
+cp -r kde/wallpapers/* ~/.local/share/wallpapers/
+cp -r kde/color-schemes/* ~/.local/share/color-schemes/
+cp kde/kde* kde/kwinrc kde/plasma* kde/plasmarc ~/.config/
 
-Installed packages are stored in:
+# 4. Install native packages
+sudo pacman -S --needed - < packages/pacman.txt
 
-```text
-packages/
-```
-
-To install packages from the generated list:
-
-```bash
-sudo dnf install $(cat packages/dnf.txt)
-```
-
-## Fonts
-
-Font archives are intentionally not included in this repository due to GitHub file size limitations.
-
-Install fonts manually and place any required font configuration files inside:
-
-```text
-fonts/
-```
-
-## Screenshots
-
-Desktop screenshots can be found in:
-
-```text
-screenshots/
+# 5. Install AUR packages (via paru or yay)
+paru -S --needed - < packages/aur.txt
 ```
 
 ## Notes
 
-These dotfiles are tailored to my personal workflow and setup. Some configurations may require additional packages, themes, fonts, or KDE extensions to work correctly.
-
-Feel free to use them as inspiration for your own setup.
+- **No Heavy Bloat:** Third-party icon packs (Papirus, WhiteSur, Tela) and raw font binaries (JetBrains Mono TTFs) are removed in favor of official package manager packages (`pacman` and `paru`).
+- **Sensitive Data:** Private keys and database dumps are protected via `.gitignore` and never committed.

@@ -137,6 +137,9 @@ Theme=kora
 
 [KDE]
 LookAndFeelPackage=Catppuccin-Macchiato-Mauve
+contrast=4
+frameContrast=0.2
+widgetStyle=Darkly
 
 [KFileDialog Settings]
 Allow Expansion=false
@@ -153,7 +156,7 @@ Sort directories first=true
 Sort hidden files last=false
 Sort reversed=true
 Speedbar Width=144
-View Style=Simple
+View Style=DetailTree
 
 [KShortcutsDialog Settings]
 Dialog Size=600,480

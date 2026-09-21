@@ -1,0 +1,187 @@
+[07757b4e-e2df-41e8-bdab-d954906d2f7e]
+Description=Application settings for GLava
+clientmachine=localhost
+layer=desktop
+layerrule=2
+noborderrule=3
+wmclass=GLava
+wmclassmatch=1
+
+[0cca2968-6362-4d3a-b05a-3f575baa1877]
+Description=Application settings for Code
+clientmachine=localhost
+desktops=fa2b150d-a85f-4fab-8912-2464e834c6dc
+desktopsrule=3
+wmclass=code Code
+wmclasscomplete=true
+wmclassmatch=1
+
+[12ca621a-bfef-430d-8b3d-27d6ffc2ba86]
+Description=Application settings for vlc
+clientmachine=localhost
+desktops=b21379e5-1421-47e7-8fe7-01b60959008f
+desktopsrule=3
+wmclass=vlc
+wmclassmatch=1
+
+[34c92e77-9067-46d2-b970-eeba5eafb74a]
+Description=Application settings for Talanoa
+clientmachine=localhost
+desktops=c9ecf1a7-9690-4a57-aa4b-edb57d29557b
+desktopsrule=3
+wmclass=talanoa Talanoa
+wmclasscomplete=true
+wmclassmatch=1
+
+[3c5ea9a8-e4b6-4343-99fa-c728df45b2f9]
+Description=Application settings for Spotify
+clientmachine=localhost
+desktops=8448aeb9-3a32-464d-9c0a-e2ca44144e7c
+desktopsrule=3
+position=519,223
+positionrule=3
+wmclass=spotify Spotify
+wmclasscomplete=true
+wmclassmatch=1
+
+[55a07dc7-6c60-4c5d-8bb4-1a89716dd17a]
+Description=Application settings for kitty
+ignoregeometry=true
+ignoregeometryrule=4
+position=381,114
+positionrule=4
+size=1215,836
+sizerule=4
+wmclass=kitty
+wmclassmatch=1
+
+[5b6248c4-c2cf-415e-831c-124ef1731c1c]
+Description=Application settings for com.mitchellh.ghostty
+desktops=fa2b150d-a85f-4fab-8912-2464e834c6dc
+desktopsrule=3
+wmclass=ghostty com.mitchellh.ghostty
+wmclasscomplete=true
+wmclassmatch=1
+
+[65b5b2a8-9edd-43a4-bdc4-49f570e1fe4d]
+Description=Application settings for org.kde.okular
+desktops=d71836d7-910c-4faa-ba9c-2fa90dbfe118
+desktopsrule=3
+wmclass=okular org.kde.okular
+wmclasscomplete=true
+wmclassmatch=1
+
+[6d58f7fb-98d2-4513-beb4-e26d40375ac2]
+Description=Application settings for Code
+clientmachine=localhost
+desktops=fa2b150d-a85f-4fab-8912-2464e834c6dc
+desktopsrule=3
+wmclass=code Code
+wmclasscomplete=true
+wmclassmatch=1
+
+[849e060a-7ee2-4fb6-bcc0-8e2233a1852a]
+Description=Application settings for org.kde.gwenview
+above=true
+aboverule=3
+wmclass=gwenview org.kde.gwenview
+wmclasscomplete=true
+wmclassmatch=1
+
+[94cfe559-5752-4e55-9b84-5a66fb254384]
+Description=Application settings for org.kde.dolphin
+desktops=c079e761-fd77-42fa-8707-a583080b84c7
+desktopsrule=3
+wmclass=dolphin org.kde.dolphin
+wmclasscomplete=true
+wmclassmatch=1
+
+[998f5db9-d2a3-4e41-9592-7f47314a37c1]
+Description=Application settings for floorp
+desktops=1b38abdb-becc-4a13-9db0-cf8d7e3b8a2e
+desktopsrule=3
+fsplevelrule=2
+wmclass=floorp
+wmclassmatch=1
+
+[9ccf4a5a-1d03-4937-96c3-910c871c5c18]
+Description=Application settings for ONLYOFFICE
+clientmachine=localhost
+desktops=d9aa91df-f3ca-4531-962b-8c5547fc2741
+desktopsrule=3
+wmclass=DesktopEditors ONLYOFFICE
+wmclasscomplete=true
+wmclassmatch=1
+
+[9fa653e9-eed9-4b30-9b77-2bd4256fca8a]
+Description=Application settings for google-chrome
+desktops=d9aa91df-f3ca-4531-962b-8c5547fc2741
+desktopsrule=3
+wmclass=chrome google-chrome
+wmclasscomplete=true
+wmclassmatch=1
+
+[General]
+count=19
+rules=55a07dc7-6c60-4c5d-8bb4-1a89716dd17a,3c5ea9a8-e4b6-4343-99fa-c728df45b2f9,998f5db9-d2a3-4e41-9592-7f47314a37c1,5b6248c4-c2cf-415e-831c-124ef1731c1c,9fa653e9-eed9-4b30-9b77-2bd4256fca8a,34c92e77-9067-46d2-b970-eeba5eafb74a,b11c7836-814f-4245-aab7-01cfd840eecf,07757b4e-e2df-41e8-bdab-d954906d2f7e,9ccf4a5a-1d03-4937-96c3-910c871c5c18,b095648b-391b-46a0-81b4-69bbfc2f3443,b4946552-1e11-46e5-98f4-fddacb1d5c53,12ca621a-bfef-430d-8b3d-27d6ffc2ba86,c53eade9-2efb-49ed-92ad-db1bb6c3c03a,849e060a-7ee2-4fb6-bcc0-8e2233a1852a,ebd93a0b-fda1-4fd5-8f69-5cc27a67dd4e,f1b33763-6631-40aa-9a65-6c2d24bdf345,0cca2968-6362-4d3a-b05a-3f575baa1877,65b5b2a8-9edd-43a4-bdc4-49f570e1fe4d,94cfe559-5752-4e55-9b84-5a66fb254384
+
+[afef5e39-adea-4aa0-bbd6-e4344e5e77a7]
+Description=Application settings for ONLYOFFICE Desktop Editors
+clientmachine=localhost
+desktops=2cea789e-1b47-4a25-8dee-fb1d963e6b9b
+desktopsrule=3
+wmclass=DesktopEditors ONLYOFFICE Desktop Editors
+wmclasscomplete=true
+wmclassmatch=1
+
+[b095648b-391b-46a0-81b4-69bbfc2f3443]
+Description=Application settings for com.stremio.stremio
+desktops=d71836d7-910c-4faa-ba9c-2fa90dbfe118
+desktopsrule=3
+wmclass=stremio com.stremio.stremio
+wmclasscomplete=true
+wmclassmatch=1
+
+[b11c7836-814f-4245-aab7-01cfd840eecf]
+Description=Application settings for io.github.alainm23.planify
+ignoregeometry=true
+ignoregeometryrule=3
+position=572,248
+positionrule=3
+size=1444,966
+sizerule=3
+wmclass=io.github.alainm23.planify
+wmclassmatch=1
+
+[b4946552-1e11-46e5-98f4-fddacb1d5c53]
+Description=Application settings for mpv
+desktops=b21379e5-1421-47e7-8fe7-01b60959008f
+desktopsrule=3
+wmclass=mpv
+wmclassmatch=1
+
+[c53eade9-2efb-49ed-92ad-db1bb6c3c03a]
+Description=Window settings for org.kde.krunner
+aboverule=2
+title=KRunner
+types=1
+wmclass=krunner org.kde.krunner
+wmclasscomplete=true
+wmclassmatch=1
+
+[ebd93a0b-fda1-4fd5-8f69-5cc27a67dd4e]
+Description=Application settings for ONLYOFFICE Desktop Editors
+clientmachine=localhost
+desktops=d9aa91df-f3ca-4531-962b-8c5547fc2741
+desktopsrule=2
+wmclass=DesktopEditors ONLYOFFICE Desktop Editors
+wmclasscomplete=true
+wmclassmatch=1
+
+[f1b33763-6631-40aa-9a65-6c2d24bdf345]
+Description=Application settings for org.kde.konsole
+desktops=fa2b150d-a85f-4fab-8912-2464e834c6dc
+desktopsrule=3
+wmclass=konsole org.kde.konsole
+wmclasscomplete=true
+wmclassmatch=1

@@ -1,0 +1,29 @@
+[Annotations]
+annotationToolType=1
+blurStrength=0.63507080078125
+pixelateStrength=0.585205078125
+rectangleFillColor=255,255,255,0
+rectangleShadow=false
+rectangleStrokeColor=255,17,0
+rectangleStrokeWidth=1
+
+[General]
+autoSaveImage=true
+clipboardGroup=PostScreenshotCopyImage
+
+[GuiConfig]
+captureMode=5
+quitAfterSaveCopyExport=true
+
+[ImageSave]
+imageCompressionQuality=0
+lastImageSaveAsLocation=
+lastImageSaveLocation=file:///home/handikatriarlan/Pictures/Screenshots/Screenshot_20260920_014855-1.png
+translatedScreenshotsFolder=Screenshots
+
+[VideoSave]
+translatedScreencastsFolder=Screencasts
+
+[ViewerWindow]
+2560x1440 screen: Height=570
+2560x1440 screen: Width=780

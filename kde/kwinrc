@@ -1,20 +1,35 @@
+[Compositing]
+AnimationSpeed=100
+
 [Desktops]
 Id_1=1696d3b0-3d9d-4263-b4e6-7dad18475a9d
 Number=1
 Rows=1
 
 [Plugins]
+RoundedCornersEnabled=true
 blurEnabled=true
 contrastEnabled=false
 desktopchangeosdEnabled=false
 krohnkiteEnabled=false
 kzonesEnabled=true
 minimizeallEnabled=false
+screenedgeEnabled=false
 translucencyEnabled=true
 
 [Round-Corners]
+ActiveOutlineAlpha=0
+ActiveOutlineUseCustom=false
+ActiveOutlineUsePalette=true
+InactiveOutlineAlpha=0
 InactiveOutlineThickness=0
+InactiveSecondOutlineThickness=0
 OutlineThickness=0
+SecondOutlineThickness=0
+
+[Script-krohnkite]
+monocleMaximize=false
+monocleMinimizeRest=true
 
 [Script-kzones]
 layoutsJson=[\n    {\n        "name": "Priority Grid",\n        "padding": 0,\n        "zones": [\n            {\n                "x": 0,\n                "y": 0,\n                "height": 100,\n                "width": 50\n            },\n            {\n                "x": 50,\n                "y": 0,\n                "height": 100,\n                "width": 50\n            }\n        ]\n    },\n    {\n        "name": "Quadrant Grid",\n        "zones": [\n            {\n                "x": 0,\n                "y": 0,\n                "height": 50,\n                "width": 50\n            },\n            {\n                "x": 0,\n                "y": 50,\n                "height": 50,\n                "width": 50\n            },\n            {\n                "x": 50,\n                "y": 50,\n                "height": 50,\n                "width": 50\n            },\n            {\n                "x": 50,\n                "y": 0,\n                "height": 50,\n                "width": 50\n            }\n        ]\n    }\n]
@@ -28,6 +43,10 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"wi
 [Tiling][1696d3b0-3d9d-4263-b4e6-7dad18475a9d][0f6f3854-ab61-42de-b9c9-95337b72e079]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
+[Tiling][1696d3b0-3d9d-4263-b4e6-7dad18475a9d][16edef39-b876-434c-bb21-467d2acefc44]
+padding=4
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
 [Tiling][1696d3b0-3d9d-4263-b4e6-7dad18475a9d][1bf26257-2d49-4a0c-b975-46e4de50b82f]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
@@ -36,6 +55,10 @@ padding=4
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][1696d3b0-3d9d-4263-b4e6-7dad18475a9d][22b9f736-7207-4952-bab8-c9d22e04d5b9]
+padding=4
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][1696d3b0-3d9d-4263-b4e6-7dad18475a9d][742bbd57-4b89-47bf-91b2-e6d33ca01f3a]
 padding=4
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
@@ -84,4 +107,6 @@ VirtualKeyboardEnabled=true
 Scale=1
 
 [org.kde.kdecoration2]
+BorderSize=None
+BorderSizeAuto=false
 theme=kwin4_decoration_qml_plastik
