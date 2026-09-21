@@ -54,13 +54,23 @@ restore_configs() {
         success "Restored color schemes to ~/.local/share/color-schemes/"
     fi
 
-    # 5. KDE Plasma configs
-    for kdefile in kdeglobals kglobalshortcutsrc kwinrc plasma-org.kde.plasma.desktop-appletsrc plasmarc; do
+    # 5. KDE Plasma & Desktop configs
+    for kdefile in kdeglobals kglobalshortcutsrc kwinrc plasma-org.kde.plasma.desktop-appletsrc plasmarc kcminputrc kwinrulesrc dolphinrc spectaclerc; do
         if [ -f "$DOTFILES_DIR/kde/$kdefile" ]; then
             cp "$DOTFILES_DIR/kde/$kdefile" "$HOME/.config/$kdefile"
             success "Restored KDE config: ~/.config/$kdefile"
         fi
     done
+
+    # 6. Custom Fonts (BearSansUI)
+    if [ -d "$DOTFILES_DIR/fonts/BearSansUI" ]; then
+        mkdir -p "$HOME/.local/share/fonts"
+        cp -r "$DOTFILES_DIR/fonts/BearSansUI/"* "$HOME/.local/share/fonts/"
+        if command -v fc-cache >/dev/null 2>&1; then
+            fc-cache -f "$HOME/.local/share/fonts" >/dev/null 2>&1 || true
+        fi
+        success "Restored custom font BearSansUI to ~/.local/share/fonts/"
+    fi
 
     # 6. SDDM config reminder
     if [ -f "$DOTFILES_DIR/sddm/sddm.conf" ]; then
