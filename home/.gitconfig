@@ -1,0 +1,28 @@
+[user]
+	name = handikatriarlan
+	email = handikaarlan@gmail.com
+	signingkey = C07E49C9E77F560D5AF8B8727211897A70612955
+[init]
+	defaultBranch = main
+[pull]
+	rebase = false
+[gpg]
+	program = /usr/bin/gpg
+	program = /usr/bin/gpg
+[commit]
+	gpgsign = true
+[core]
+	pager = delta
+[interactive]
+	diffFilter = delta --color-only
+[add "interactive"]
+	useBuiltin = false
+[delta]
+	navigate = true
+	light = false
+[merge]
+	conflictstyle = diff3
+[diff]
+	colorMoved = default
+[credential]
+	helper = store
